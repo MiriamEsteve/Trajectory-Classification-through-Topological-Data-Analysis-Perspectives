@@ -7,7 +7,7 @@ import pandas as pd
 import numpy as np
 import importlib
 
-path = "C:/Users/Miriam_Esteve/OneDrive - Fundación Universitaria San Pablo CEU/Documents/CEU/Investigación/2023/UTHECA/paper/datasetShip/datasets/"
+path = "./paper/datasetShip/datasets/"
 
 grid = gridify.area_to_grid(side_length=10000)
 

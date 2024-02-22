@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 import os
 import sys
-sys.path.append(os.path.abspath("C:/Users/Miriam_Esteve/OneDrive - Fundación Universitaria San Pablo CEU/Documents/CEU/Investigación/2023/UTHECA/paper/scripts/Python/"))
+sys.path.append(os.path.abspath("./paper/scripts/Python/"))
 import pers_diagram
 #import barycenter
 import gudhi
@@ -18,7 +18,7 @@ plt.style.use('ggplot')
 
 
 # Read data
-data = pd.read_csv("C:/Users/Miriam_Esteve/OneDrive - Fundación Universitaria San Pablo CEU/Documents/CEU/Investigación/2023/UTHECA/paper/dataset/data.csv")
+data = pd.read_csv("./paper/dataset/data.csv")
 
 # Unique vehicle
 unique_value = np.unique(data["Vehicle_ID"])

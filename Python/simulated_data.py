@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 import os
 import sys
-sys.path.append(os.path.abspath("C:/Users/Miriam_Esteve/OneDrive - Fundación Universitaria San Pablo CEU/Documents/CEU/Investigación/2023/UTHECA/paper/scripts/Python/"))
+sys.path.append(os.path.abspath("./paper/scripts/Python/"))
 import pers_diagram
 import classification
 import matplotlib.pyplot as plt
@@ -15,7 +15,7 @@ sd0 = 1
 # Read data
 datas = []
 for i in range(1, 100):
-    datas.append(pd.read_csv("C:/Users/Miriam_Esteve/OneDrive - Fundación Universitaria San Pablo CEU/Documents/CEU/Investigación/2023/UTHECA/paper/scripts/data/len100/data" + str(i) + "_ar" + str(ar) + "-sd0" + str(sd0)+ ".csv")[["x", "y"]])
+    datas.append(pd.read_csv("./paper/scripts/data/len100/data" + str(i) + "_ar" + str(ar) + "-sd0" + str(sd0)+ ".csv")[["x", "y"]])
 
 
 # Rips diagram
